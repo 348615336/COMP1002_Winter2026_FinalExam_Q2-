@@ -8,18 +8,16 @@
 </head>
 
 <body>
-    <!--Header and Navigation Section-->
     <header>
         <h1>Tech Workshop Registration</h1>
     </header>
 
-
-<main>
-    <!--About us Section-->
-    <section id="registration">
+    <main>
+        <section id="registration">
             <h2>Register for the Workshop</h2>
             <p>Fill out the form below to reserve your spot in our tech workshop.</p>
 
+            <!--form registration-->
             <form id="registrationForm">
                 <label for="name">Full Name:</label>
                 <input type="text" id="name" name="name" required minlength="2">
@@ -35,47 +33,17 @@
                     <option value="Advanced">Advanced</option>
                 </select>
 
-    <!--Menu section-->
-    <section id="menu">
-        <h2>Our Menu</h2>
-        <p>Delicious dishes crafted for coders and hungry minds.</p>
-        <ul class="menu">
-        <li>Coders Special</li>
-        <li>Python Pasta</li>
-        <li>Semantic Soup</li>
-        <li>Final Fish Fillet</li>
-        </ul>
-    </section>
+                <button type="submit">Register</button>
+            </form>
 
-    <!--Projects Section-->
-    <section id="projects">
-        <h2>Projects</h2>
-        <p> As a we at The Hungry Coder are fellow coders, attatche is a link to our github</p>
-        <a class="button" href="https://github.com/348615336" target="_blank">Visit My GitHub</a>
-    </section>
+            <p id="confirmationMessage"></p>
+        </section>
+    </main>
 
-    <!--Contact Information Section-->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Have any questions? Send us an email and we will be ure to respond as soon as possible</p>
-        <form action="#" method="post">
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="name" required minlength="2">
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required minlength="10"></textarea>
+    <footer>
+        <p>&copy; 2026 Tech Workshop</p>
+    </footer>
 
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; The Hungry Coder 2026</p>
-</footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
