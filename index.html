@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TheHungryCoder</title>
+    <title>Tech Workshop Registration</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -10,29 +10,30 @@
 <body>
     <!--Header and Navigation Section-->
     <header>
-        <h1>The Hungry Coder</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Tech Workshop Registration</h1>
     </header>
 
 
 <main>
     <!--About us Section-->
-    <section id="about">
-    
-        <h2>Lorem ipsum dolor sit amet</h2>
-        <img src = "https://images.unsplash.com/photo-1556742393-d75f468bfcb0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Restaurant dining area with wooden counter and gentle light">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            
-        </p>
-    </section>
+    <section id="registration">
+            <h2>Register for the Workshop</h2>
+            <p>Fill out the form below to reserve your spot in our tech workshop.</p>
+
+            <form id="registrationForm">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required minlength="2">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="level">Skill Level:</label>
+                <select id="level" name="level" required>
+                    <option value="">Select your level</option>
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Advanced">Advanced</option>
+                </select>
 
     <!--Menu section-->
     <section id="menu">
